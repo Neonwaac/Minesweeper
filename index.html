@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/xp.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="./assets/icon.png" type="image/png">
+    <script src = "index.js"></script>
+    <title>Minesweeper</title>
+</head>
+<body>
+    <div class="neonwaac">
+    </div>
+    <div class="title-bar choose-bar">
+        <div class="title-bar-text">Choose game difficulty</div>
+        <div class="title-bar-controls">
+          <button aria-label="Close"></button>
+        </div>
+    </div>
+    <div class = "window choose-window">
+        <button class = "btn-opcion" onclick = "window.location.href = './easy/easy.html'">Easy</button>
+        <button class = "btn-opcion" onclick = "window.location.href = './medium/medium.html'">Medium</button>
+        <button class = "btn-opcion" onclick = "window.location.href = './hard/hard.html'">Hard</button>
+    </div>
+    <div class="title-bar info-bar">
+        <div class="title-bar-text">Game difficulty info</div>
+        <div class="title-bar-controls">
+          <button aria-label="Close"></button>
+        </div>
+    </div>
+    <div class = "window info-window">
+        <div class = "infot"><span class="tituloinfo">Easy</span>
+            <br> - It's a picnic! A small minefield to start with.
+            <br> &nbsp &nbsp *Tiles: 8x8
+            <br> &nbsp &nbsp *Mines: 10
+        </div>
+        <div class="infot">
+            <span class="tituloinfo">Medium</span>
+            <br> - You're in the middle range! Stay alert!
+            <br> &nbsp &nbsp *Tiles: 12x12
+            <br> &nbsp &nbsp *Mines: 20
+        </div>
+        
+        <div class="infot">
+            <span class="tituloinfo">Hard</span>
+            <br> - Hold onto your hat! You're stepping into the minefield...
+            <br> &nbsp &nbsp *Tiles: 16x16
+            <br> &nbsp &nbsp *Mines: 40
+        </div>
+    </div>
+</body>
+</html>

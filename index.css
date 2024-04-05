@@ -1,0 +1,56 @@
+body{
+    background: url(./assets/windowsxp.png);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.neonwaac{
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 150px;
+    background: url(./assets/minesweeper-title.png);
+    width: 1300px;
+    background-size: cover;
+    backdrop-filter: blur(40px);
+    box-shadow: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 20px;
+}
+.window{
+    align-items: center;
+    text-align: center;
+}
+.info-bar{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1400px;
+}
+.info-window{
+    margin: 0 auto;
+    display: flex;
+    height: 200px;
+    width: 1410px;
+}
+.choose-bar{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 700px;
+}
+.choose-window{
+    margin: 0 auto;
+    width: 710px;
+}
+.infot{
+    width: 33%;
+    text-align: left;
+    font-size: 20px;
+    margin: 0 0 0 20px;
+}
+.tituloinfo{
+    font-size: 40px;
+}
+.btn-opcion{
+    margin: 30px 5px;
+    width: 200px;
+    height: 30px;
+}
