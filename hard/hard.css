@@ -11,30 +11,26 @@ body{
     text-align: center;
 }
 .return{
-    background-color: #007bff;
     width: 100px;
     height: 50px;
     text-align: center;
     align-items: center;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 0 0 30px;
-    color: #fff;
+    color: #000000;
     font-family: "MS Sans Serif", Geneva, sans-serif;
     font-size: 40px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
-.return:hover{
-    background-color: #0056b3;
-}
-.return span {
+.title-bar{
+    width: 410px;
     margin: 0 auto;
-    margin-right: 5px;
 }
 #board{
     width: 400px;
     height: 400px;
-    border-top: 10px solid  white;
+
     border-left: 10px solid white;
     border-bottom: 10px solid gray;
     border-right: 10px solid gray;
@@ -62,11 +58,42 @@ body{
     font-family: "MS Sans Serif", Geneva, sans-serif;
     font-weight:bolder;
 }
-#minesc{
-    font-size: 30px;
+.top-ly{
+    margin: 0 auto;
+    display: flex;
+    width: 400px;
+    height: 50px;
+    border-right: 10px solid gray;
+
+    border-left: 10px solid white;
+    justify-content: center;
+    background: lightgray;
+
+}
+.black-font{
+    background-color: black;
+    width: 100px;
+    height: 100%;
+    align-items: center;
+    font-size: 40px;
     font-family: 'LED Digital 7', sans-serif;
     color: red;
+    text-align: center;
+    justify-content: center;
     font-weight: bold;
+
+}
+.middle{
+    width: 200px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid gray;
+    border-left: 10px solid white;
+    border-right: 10px solid gray;
+}
+.middle img{
+    width: 30px;
+    
+    
 }
 .x1{
     color: blue;

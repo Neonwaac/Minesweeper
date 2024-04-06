@@ -16,10 +16,14 @@
         <div class="title-bar">
             <div class="title-bar-text">Minesweeper by Neonwaac</div>
             <div class="title-bar-controls">
-              <button aria-label="Close"></button>
+                <button onClick="window.location.reload()" aria-label="Close"></button>
             </div>
         </div>
-        <h1><span id="minesc">0</span></h1>
+        <div class="top-ly">
+            <div class ="black-font minesc" id = "minesc">0</div>
+            <div class ="middle"><img src="../assets/icon.png"></div>
+            <div class ="black-font time" id = "time">0</div>
+        </div>
         <div id="board">
         </div>
     </div>
