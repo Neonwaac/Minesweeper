@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neonwaac Minesweeper</title>
+    <link rel="stylesheet" href="https://unpkg.com/xp.css">
+    <link href="https://fonts.cdnfonts.com/css/led-digital-7" rel="stylesheet">
     <link rel="stylesheet" href="hard.css">
     <link rel="icon" href="../assets/icon.png" type="image/png">
     <script src="hard.js"></script>
@@ -11,7 +13,13 @@
 <body>
     <button class = "return" onclick = "window.location.href = '../index.html'">←</button>
     <div class = "body2">
-        <h1>Mines: <span id="minesc">0</span></h1>
+        <div class="title-bar">
+            <div class="title-bar-text">Minesweeper by Neonwaac</div>
+            <div class="title-bar-controls">
+              <button aria-label="Close"></button>
+            </div>
+        </div>
+        <h1><span id="minesc">0</span></h1>
         <div id="board">
         </div>
     </div>

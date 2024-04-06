@@ -56,11 +56,14 @@ function clicktile(){
         return;
     }
     let tile = this;
-
-    if (minesLocation.includes(tile.id)){
-        gameOver = true;
-        revealMines()
+    if (tile.innerText == "🚩"){
         return;
+    }else{
+        if (minesLocation.includes(tile.id)){
+            gameOver = true;
+            revealMines()
+            return;
+        }
     }
     let coords = tile.id.split("-");
     let r = parseInt(coords[0]);
@@ -72,9 +75,13 @@ function rightclicktile(event){
     let tile = this;
     if(tile.innerText === ""){
         tile.innerText = "🚩"
+        mines -= 1
+        document.getElementById("minesc").innerText = mines;
     }
     else if(tile.innerText === "🚩"){
         tile.innerText = ""
+        mines += 1
+        document.getElementById("minesc").innerText = mines;
     }
 }
 function revealMines(){
