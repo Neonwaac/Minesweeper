@@ -1,3 +1,5 @@
+hola jose soy Romerin, dejame darte un saludo y felicitarte muy bonito tu trabajo, de igual forma quiero darte un saludo y saber como estas debido a que por otro medio no contestas, espero estes bien t kiere Ramón <3
+
 # Neonwaac Minesweeper
 
 ## Developer
